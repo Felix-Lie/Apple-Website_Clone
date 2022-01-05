@@ -1,9 +1,11 @@
 // Common JS
-document.querySelectorAll('.watch-control, .controls a').forEach((control) => {
-  control.addEventListener('click', (e) => {
-    e.preventDefault();
+document
+  .querySelectorAll('.watch-control, .controls a, .iphone-btn')
+  .forEach((control) => {
+    control.addEventListener('click', (e) => {
+      e.preventDefault();
+    });
   });
-});
 // End of Common JS
 
 //Cube
